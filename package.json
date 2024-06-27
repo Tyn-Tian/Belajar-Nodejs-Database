@@ -1,0 +1,18 @@
+{
+  "name": "belajar-nodejs-database",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Belajar Node.js Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
