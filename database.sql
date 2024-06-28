@@ -29,4 +29,11 @@ insert into products(id, name, price, stock, category)
     ('P0002', 'B', 2000, 200, 'K1'),
     ('P0003', 'C', 3000, 300, 'K1'),
     ('P0004', 'D', 4000, 400, 'K1'),
-    ('P0005', 'E', 5000, 500, 'K1')
+    ('P0005', 'E', 5000, 500, 'K1');
+
+create table categories 
+(
+    id int not null auto_increment,
+    name varchar(100) not null,
+    primary key (id)
+) engine innodb;
